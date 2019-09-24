@@ -44,6 +44,7 @@ h2{
 
 #table{
   padding: 30px;
+  font-kerning: none;
 }
 
 #GPA{
