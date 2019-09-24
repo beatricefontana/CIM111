@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Cute+Font&display=swap');
+
+  body{
+    background-color: blue;
+    background-color: PapayaWhip;
+    background-color: #7fff00; /* Hexidecimal */
+    /* rgb color r: 0-255 g: 0-255 b:0-255 */
+    background-color: rgb(255,0,0); /* red */
+    background-color: rgb(255,255,255); /* white */
+    background-color: rgb(0,0,0); /* black */
+    background-color: DarkSeaGreen;
+  }
+
+  section{
+    background-color: white;
+    background-color: rgba(255,255,255,0.5); /* white with a 50% opacity*/
+  }
+
+  h1{
+    color: orange;
+    font-family: 'Cute Font', bold, cursive;
+  }
+
+  h3{
+    color: white;
+  }
+
+  h3 em{
+    font-family: sans-serif;
+    text-decoration: underline;
+  }
+
+  li{
+    font-size: 20px;
+    list-style: circle;
+  }
+
+  ul li{
+    list-style: none; /* you use this to change the elements that go before the words in lists. for all un.lists the dots are going to be removed*/
+  }
+
+  a{
+    color: grey;
+    text-decoration: none; /* removes underline, usually it is blue */
+  }
+
+  a:hover{
+    background-color: purple; /* you can do any action here, you can make it underlined again, or you can make it another color or another font*/
+  }
+
+  a:visited{
+    color: green;
+  }
+  /* when you have visited a webpage then it changes */
+
+  /* it # = id. Only meant to be used once in your document. One particular case for one particular section. */
+  #name{
+    text-align: center;
+  }
+
+  .underline{
+    text-decoration: underline;
+    font-weight: bold;
+  }

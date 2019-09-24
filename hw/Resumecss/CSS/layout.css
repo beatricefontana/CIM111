@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Poiret+One&display=swap');
+
+body{
+  background-color: rgb(230, 247, 255);
+}
+
+
+a{
+  color: rgb(255, 179, 236);
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: grey;
+}
+
+
+h1{
+  color: rgb(113, 244, 244);
+  text-align: center;
+  font-family: 'Julius Sans One', serif;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white;
+  margin-top: 20px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  text-shadow: color #1500 10px -5px 1px
+}
+
+#name{
+  font-size: 50px;
+}
+
+h2{
+  color: rgb(110, 247, 179);
+  font-family: 'Poiret One', cursive;
+  font-size: 40px;
+}
+
+#contact{
+  font-family: 'Julius Sans One', serif;
+}
+
+#table{
+  padding: 30px;
+}
+
+#GPA{
+  font-size: 18px;
+}
+
+.bold{
+  font-weight: bolder;
+  font-style: italic;
+}
+
+#currentuni{
+  font-style: italic;
+}
+ .italic{
+   font-style: italic;
+ }
