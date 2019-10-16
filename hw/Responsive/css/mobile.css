@@ -55,9 +55,10 @@ nav ul li{
 }
 
 #grid4{
-  width: 200px;
-  height: auto;
-  grid-template-columns: 100px 100px;
+  width: 100px;
+  height: 80px;
+  grid-template-columns: 50px 50px;
+  grid-column-gap: 0px;
 }
 
 #grid4 img{

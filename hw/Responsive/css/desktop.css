@@ -1,14 +1,11 @@
 header{
-  background-color: grey;
-  height: auto;
-  width: 1200px;
-  padding: 20px 20px 20px 20px;
-
-
+    background-color: grey;
+    height: auto;
+    width: 1200px;
+    padding: 20px 20px 20px 20px;
     border-width: 0px 0px 5px 0px;
     border-color: black;
     border-style: solid;
-
     margin: 10px auto 30px auto;
     margin: 0 auto;
     margin-top: -10px;
@@ -34,24 +31,23 @@ nav ul li a{
 }
 
 nav ul li:hover{
-  background-color: red;
+  background-color: rgb(179, 0, 0);
 }
 
 h1{
 text-align: center;
+color: white;
 }
 
 #quote{
   text-align: center;
-  text-decoration: overline;
   text-decoration: underline;
+  text-decoration-color: white;
 }
 
 .grey{
-  background-color: grey;
+  background-color: rgb(211, 211, 211);
 }
-
-
 
 #grid1{
   width: 800px;
@@ -91,11 +87,12 @@ text-align: center;
 
 #grid3 img{
   width: 200px;
+  height: 200px;
 }
 
 #grid4{
   width: 250px;
-  height: 200px;
+  height: 150px;
   margin: auto;
   display: grid;
   grid-template-rows: 125px;
@@ -105,5 +102,4 @@ text-align: center;
 
 #grid4 img{
   width: 100px;
-  text-align: center;
 }
