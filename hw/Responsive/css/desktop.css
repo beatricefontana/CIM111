@@ -1,0 +1,109 @@
+header{
+  background-color: grey;
+  height: auto;
+  width: 1200px;
+  padding: 20px 20px 20px 20px;
+
+
+    border-width: 0px 0px 5px 0px;
+    border-color: black;
+    border-style: solid;
+
+    margin: 10px auto 30px auto;
+    margin: 0 auto;
+    margin-top: -10px;
+}
+
+nav{
+  background-color: grey;
+  width: 600px;
+  margin: 0 auto;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 40px;
+  padding: 10px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+nav ul li:hover{
+  background-color: red;
+}
+
+h1{
+text-align: center;
+}
+
+#quote{
+  text-align: center;
+  text-decoration: overline;
+  text-decoration: underline;
+}
+
+.grey{
+  background-color: grey;
+}
+
+
+
+#grid1{
+  width: 800px;
+  height: 180px;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 125px;
+  grid-template-columns: 400px 400px;
+  grid-column-gap: 20px;
+}
+
+#grid2{
+  width: 800px;
+  height: 225px;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 125px;
+  grid-template-columns: 400px 400px;
+  grid-column-gap: 20px;
+}
+
+#grid2 section img{
+  width: 300px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+#grid3{
+  width: 600px;
+  height: 230px;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 300px;
+  grid-template-columns: 200px 200px 200px;
+  grid-column-gap: 10px;
+}
+
+#grid3 img{
+  width: 200px;
+}
+
+#grid4{
+  width: 250px;
+  height: 200px;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 125px;
+  grid-template-columns: 100px 100px;
+  grid-column-gap: 50px;
+}
+
+#grid4 img{
+  width: 100px;
+  text-align: center;
+}
