@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1 id="colorchange">Click here to change background color</h1>
+    <h1 id="colorchange2">Click here to change background color orange</h1>
+
+    <ul>
+      <li id="info1" class="info">info1</li>
+      <li id="info2" class="info">info2</li>
+      <li id="info3" class="info">info3</li>
+    </ul>
+    <p id="addinfo"></p>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("#colorchange").click(function() {
+
+        $("body").css("background-color","blue")
+
+        });//end of colorchange
+
+        $("#colorchange2").click(function() {
+
+        $("body").css("background-color","orange")
+
+        });//end of colorchange2
+
+        $("#info1").mouseenter(function() {
+          $("#addinfo").html("hello Bea I wanna date u<3")
+
+      });//end of info1
+
+      $("#info3").mouseenter(function() {
+        $("#addinfo").html("<img src='https://i.ytimg.com/vi/TRyo0bMRx20/maxresdefault.jpg' alt='image1'>")
+
+      });//end of info3
+
+      $("#info1").mouseleave(function() {
+      $("#addinfo").html("")
+      });//end of info1
+
+      $(".info").mouseleave(function() {
+      $("#addinfo").html("")
+      });//end of info1
+
+      });
+    </script>
+
+  </body>
+</html>

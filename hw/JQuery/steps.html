@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Step-By-Step Guide</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+  </head>
+
+  <body>
+    <main>
+      <h1>Step-By-Step Guide</h1>
+    <section class="text" id="grid1">
+      <section>
+        <p id="section1Show">Show</p>
+
+        <ol>
+          <li>Assemble all elements together.</li>
+          <li>Pour the nut butter into all the ingredients.</li>
+          <li>Start mixing them all, exept the coconut flakes. It should resemble a somewhat sticky dough that holds together when lightly squeezed.</li>
+          <li>Shape them into a spherical shape with your hands.</li>
+          <li>Pour the coconut flakes over them and enjoy!</li>
+          </ol>
+
+          </section>
+          <section id="section1" class="grid">
+          <img src="images/1.jpg" alt="Image1">
+          <img src="images/2.jpg" alt="Image2">
+          <img src="images/3.jpg" alt="Image3">
+          <img src="images/4.jpg" alt="Image4">
+          <img src="images/5.jpg" alt="Image5">
+
+          </section>
+      </section>
+
+<section>
+<script type="text/javascript" src="jquery.js">
+
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+$("#section1").hide();
+$(".grid").hide();
+
+$("#section1Show").mouseenter(function(){
+  $("#section1").show();
+  $(".grid").show();
+});
+
+$("#section1Show").mouseleave(function(){
+  $("#section1").hide();
+});
+
+
+});
+</script>
+</main>
+
+
+
+  </body>
+</html>

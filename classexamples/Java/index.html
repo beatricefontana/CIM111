@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Topics">Topics</a></li>
+          <li><a href="#Contact Us">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+    <h1>Turn Orange</h1>
+    <h2 id="underline">This is underlined</h2>
+    <p id="changetext">This text is awesome</p>
+    <script type="text/javascript" src="index.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        //single line comment
+        $("h1").css("color","orange");
+        $("#underline").css("text-decoration","underline");
+        $("#changetext").html("this text was changed");
+        //.html function replaces the text inside an html element-> useful when you hover over an image and it will add an interactive caption
+      });
+    </script>
+
+    </main>
+
+    <footer>
+    </footer>
+  </body>
+</html>
