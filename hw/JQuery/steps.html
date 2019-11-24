@@ -10,16 +10,22 @@
   <body>
     <main>
       <h1>Step-By-Step Guide</h1>
+      <p id="text">Want to know a secret?</p>
     <section class="text" id="grid1">
       <section>
-        <p id="section1Show">Show</p>
+        <p id="section1Show">Want to see how I did it?</p>
 
         <ol>
-          <li>Assemble all elements together.</li>
-          <li>Pour the nut butter into all the ingredients.</li>
-          <li>Start mixing them all, exept the coconut flakes. It should resemble a somewhat sticky dough that holds together when lightly squeezed.</li>
-          <li>Shape them into a spherical shape with your hands.</li>
-          <li>Pour the coconut flakes over them and enjoy!</li>
+          <li id="text1">Assemble all elements together.</li>
+          <p id="done1">Click here if completed. </p>
+          <li id="text2">Pour the nut butter into all the ingredients.</li>
+          <p id="done2">Click here if completed. </p>
+          <li id="text3">Start mixing them all, exept the coconut flakes. It should resemble a somewhat sticky dough that holds together when lightly squeezed.</li>
+          <p id="done3">Click here if completed. </p>
+          <li id="text4">Shape them into a spherical shape with your hands.</li>
+          <p id="done4">Click here if completed. </p>
+          <li id="text5">Pour the coconut flakes over them and enjoy!</li>
+          <p id="done5">Click here if completed. </p>
           </ol>
 
           </section>
@@ -52,7 +58,26 @@ $("#section1Show").mouseleave(function(){
   $("#section1").hide();
 });
 
+$("#done1").click(function(){
+$("#text1").css("text-decoration","line-through")
+});
+$("#done2").click(function(){
+$("#text2").css("text-decoration","line-through")
+});
+$("#done3").click(function(){
+$("#text3").css("text-decoration","line-through")
+});
+$("#done4").click(function(){
+$("#text4").css("text-decoration","line-through")
+});
+$("#done5").click(function(){
+$("#text5").css("text-decoration","line-through")
+});
 
+$("#text").mouseover(function(){
+$("h1").html("A healthy body is a healthy mind!");
+
+});
 });
 </script>
 </main>
