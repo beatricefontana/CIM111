@@ -38,12 +38,26 @@ nav ul li{
   height: auto;
   display: block;
   text-align: center;
-  margin: auto;
+  padding: 0px;
+
+  padding-bottom: 30px;
+  margin: 0px auto;
+
 }
 
-#picture img{
-  width: 20px;
+/* #picture{
+  width: 300px;
+} */
+
+/* #picture img{
+  width: 300px;
+} */
+
+#pixfix{
+  width: 270px;
 }
+
+
 
 #grid3{
   width: 200px;
